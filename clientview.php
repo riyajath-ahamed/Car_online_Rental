@@ -154,6 +154,12 @@ $conn = Connect();
 <?php        } ?>
 
                 </table>
+
+
+            <!-- menna me button eken thamail xml generate wenne  -->
+
+
+            
                 <form  action="xml2.php">
 
         <input type="submit" name="Show XML" value="Show XML" class="btn btn-success pull-right"  >  
