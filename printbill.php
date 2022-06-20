@@ -3,6 +3,7 @@
 <?php 
 session_start();
 require 'connection.php';
+
 $conn = Connect();
 ?>
 <head>
@@ -26,7 +27,7 @@ $conn = Connect();
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   Car Rentals </a>
+                   Saman Car Rentals </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -236,6 +237,9 @@ else {
         </div>
         <div class="col-md-12" style="float: none; margin: 0 auto; text-align: center;">
             <h6>Warning! <strong>Do not reload this page</strong> or the above display will be lost. If you want a hardcopy of this page, please print it now.</h6>
+        </div>
+        <div class="col-md-12" style="float: none; margin: 0 auto; text-align: center;">
+         
         </div>
     </div>
 

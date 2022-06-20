@@ -99,6 +99,7 @@ if(!isset($_SESSION['login_customer'])){
 
 ?>
 <!-- Navigation -->
+
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -108,6 +109,8 @@ if(!isset($_SESSION['login_customer'])){
                 <a class="navbar-brand page-scroll" href="index.php">
                    Car Rentals </a>
             </div>
+
+
             <!-- Collect the nav links, forms, and other content for toggling -->
 
             <?php
@@ -187,9 +190,13 @@ if(!isset($_SESSION['login_customer'])){
                 </ul>
             </div>
                 <?php   }
-                ?>
+                ?> 
+
+
             <!-- /.navbar-collapse -->
         </div>
+
+        
         <!-- /.container -->
     </nav>
     <div class="container">

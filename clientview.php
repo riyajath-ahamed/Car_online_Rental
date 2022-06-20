@@ -150,8 +150,14 @@ $conn = Connect();
 <td><?php echo $row["distance"]; ?></td>
 <td>Rs. <?php echo $row["total_amount"]; ?></td>
 </tr>
+
 <?php        } ?>
+
                 </table>
+                <form  action="xml2.php">
+
+        <input type="submit" name="Show XML" value="Show XML" class="btn btn-success pull-right"  >  
+        </form> 
                 </div> 
         <?php } else {
             ?>
@@ -162,8 +168,11 @@ $conn = Connect();
       </div>
     </div>
 
+    
+
             <?php
         } ?>   
+        
 
 </body>
 <footer class="site-footer">
